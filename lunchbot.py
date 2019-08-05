@@ -21,7 +21,7 @@ bot_token = environ.get('BOT_TOKEN')
 
 bot = TelegramClient('session_name', api_id, api_hash)
 
-places = ['Корейцы', 'Сербы', 'Лукоморье', 'Чикаго', 'Розенбаум', 'Шавуха', 'Вьетнам', 'Казаки', 'Вилка', 'Барвинок']
+places = ['Корейцы', 'Сербы', 'Лукоморье', 'Чикаго', 'Розенбаум', 'Шавуха', 'Вьетнам', 'Вилка', 'Барвинок']
 
 lunch_gif = ['https://media.giphy.com/media/7e3Y9b3nTWsaA/giphy.gif',
              'https://media.giphy.com/media/jKaFXbKyZFja0/giphy.gif',
